@@ -9,6 +9,6 @@ set(LIBS "-pthread")
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fpermissive")
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -fpermissive")
 
-add_executable(${PROJECT_NAME} server.cpp getopt.h)
+add_executable(${PROJECT_NAME} main.cpp getopt.h)
 
 target_link_libraries(${PROJECT_NAME} ${LIBS})
